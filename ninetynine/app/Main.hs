@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import Six
 
 main :: IO ()
-main = someFunc
+main = print [isPalindrome "madamimadam"]
