@@ -1,6 +1,6 @@
 module Main where
 
-import Six
+import Eight
 
 main :: IO ()
-main = print [isPalindrome "madamimadam"]
+main = print $ compress [1,1,2,3,4,4,4,4,5,6,7,8,8,8,8,8]
