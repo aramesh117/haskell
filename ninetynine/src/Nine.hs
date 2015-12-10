@@ -1,4 +1,6 @@
 module Nine where
 
-pack :: [a] -> [[a]]
-pack [] = [[]]
+pack :: Eq a => [a] -> [[a]]
+pack [] = []
+pack (x:xs) = let (first, rest) = span (x ==) xs
+              in (x: first) : pack rest

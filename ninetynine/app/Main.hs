@@ -1,6 +1,6 @@
 module Main where
 
-import Eight
+import Nine
 
 main :: IO ()
-main = print $ compress [1,1,2,3,4,4,4,4,5,6,7,8,8,8,8,8]
+main = print [pack "hhhheelllooooo"]
