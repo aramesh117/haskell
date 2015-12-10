@@ -1,6 +1,6 @@
 module Main where
 
-import Nine
+import Ten
 
 main :: IO ()
-main = print [pack "hhhheelllooooo"]
+main = print [encode "hhhheelllooooo"]
